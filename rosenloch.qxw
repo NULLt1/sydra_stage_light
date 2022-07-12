@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VirtualConsole">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.12.4</Version>
+  <Author>NULLt1</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <Universe Name="Universe 1" ID="0">
+    <Input Plugin="OSC" Line="0">
+     <PluginParameters inputPort="7701"/>
+    </Input>
+    <Output Plugin="DMX USB" Line="0"/>
+   </Universe>
+   <Universe Name="Universe 2" ID="1"/>
+   <Universe Name="Universe 3" ID="2"/>
+   <Universe Name="Universe 4" ID="3"/>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>Smoke Factory</Manufacturer>
+   <Model>Tour-Hazer II</Model>
+   <Mode>Standard</Mode>
+   <ID>5</ID>
+   <Name>Tour-Hazer II</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>2</Channels>
+  </Fixture>
+  <ChannelsGroup ID="2" Name="DRUMS DIMMER" Value="0"/>
+  <ChannelsGroup ID="9" Name="HEADS DIMMER" Value="0"/>
+  <ChannelsGroup ID="0" Name="ALL RED" Value="0"/>
+  <ChannelsGroup ID="8" Name="HEADS RED" Value="0"/>
+  <ChannelsGroup ID="1" Name="DRUMS RED" Value="0"/>
+  <ChannelsGroup ID="6" Name="STAGE TOP RED" Value="0"/>
+  <ChannelsGroup ID="7" Name="STAGE MIDDLE RED" Value="0"/>
+  <ChannelsGroup ID="4" Name="STAGE BOTTOM RED" Value="0"/>
+  <ChannelsGroup ID="15" Name="ALL BLUE" Value="0"/>
+  <ChannelsGroup ID="10" Name="HEADS BLUE" Value="0"/>
+  <ChannelsGroup ID="11" Name="DRUMS BLUE" Value="0"/>
+  <ChannelsGroup ID="14" Name="STAGE TOP BLUE" Value="0"/>
+  <ChannelsGroup ID="13" Name="STAGE MIDDLE BLUE" Value="0"/>
+  <ChannelsGroup ID="12" Name="STAGE BOTTOM BLUE" Value="0"/>
+  <ChannelsGroup ID="16" Name="ALL GREEN" Value="0"/>
+  <ChannelsGroup ID="17" Name="HEADS GREEN" Value="0"/>
+  <ChannelsGroup ID="18" Name="DRUMS GREEN" Value="0"/>
+  <ChannelsGroup ID="19" Name="STAGE TOP GREEN" Value="0"/>
+  <ChannelsGroup ID="20" Name="STAGE MIDDLE GREEN" Value="0"/>
+  <ChannelsGroup ID="21" Name="STAGE BOTTOM GREEN" Value="0"/>
+  <Function ID="4" Type="Scene" Name="Full Haze">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">0,255,1,255</FixtureVal>
+  </Function>
+  <Function ID="5" Type="Scene" Name="Blackout">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">0,0,1,0</FixtureVal>
+  </Function>
+  <Function ID="12" Type="Scene" Name="New Chaser 10 - 1" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,106</ChannelGroupsVal>
+  </Function>
+  <Function ID="14" Type="Scene" Name="New Chaser 10 - 2" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,106</ChannelGroupsVal>
+  </Function>
+  <Function ID="15" Type="Scene" Name="New Chaser 10 - 3" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,106</ChannelGroupsVal>
+  </Function>
+  <Function ID="16" Type="Scene" Name="New Chaser 10 - 1" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,15,2,39,9,201</ChannelGroupsVal>
+  </Function>
+  <Function ID="17" Type="Scene" Name="New Chaser 10 - 2" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,56,2,83,9,201</ChannelGroupsVal>
+  </Function>
+  <Function ID="18" Type="Scene" Name="New Chaser 10 - 1" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,12,2,130,9,250</ChannelGroupsVal>
+  </Function>
+  <Function ID="19" Type="Scene" Name="New Chaser 10 - 2" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,13,2,130,9,250</ChannelGroupsVal>
+  </Function>
+  <Function ID="20" Type="Scene" Name="New Chaser 10 - 3" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,14,2,130,9,250</ChannelGroupsVal>
+  </Function>
+  <Function ID="21" Type="Scene" Name="New Chaser 10 - 4" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,15,2,130,9,250</ChannelGroupsVal>
+  </Function>
+  <Function ID="22" Type="Scene" Name="New Chaser 10 - 5" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,16,2,130,9,250</ChannelGroupsVal>
+  </Function>
+  <Function ID="23" Type="Scene" Name="New Chaser 10 - 6" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,17,2,130,9,250</ChannelGroupsVal>
+  </Function>
+  <Function ID="24" Type="Scene" Name="New Chaser 10 - 7" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,18,2,130,9,250</ChannelGroupsVal>
+  </Function>
+  <Function ID="25" Type="Scene" Name="New Chaser 10 - 8" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,19,2,130,9,250</ChannelGroupsVal>
+  </Function>
+  <Function ID="26" Type="Scene" Name="New Chaser 10 - 9" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,20,2,130,9,250</ChannelGroupsVal>
+  </Function>
+  <Function ID="27" Type="Scene" Name="New Chaser 10 - 10" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,24,2,130,9,250</ChannelGroupsVal>
+  </Function>
+  <Function ID="28" Type="Scene" Name="New Chaser 10 - 11" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,25,2,130,9,250</ChannelGroupsVal>
+  </Function>
+  <Function ID="29" Type="Scene" Name="New Chaser 10 - 12" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,26,2,130,9,250</ChannelGroupsVal>
+  </Function>
+  <Function ID="30" Type="Scene" Name="New Chaser 10 - 13" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,27,2,130,9,250</ChannelGroupsVal>
+  </Function>
+  <Function ID="31" Type="Scene" Name="New Chaser 10 - 14" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,28,2,130,9,250</ChannelGroupsVal>
+  </Function>
+  <Function ID="32" Type="Scene" Name="New Chaser 10 - 15" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,29,2,130,9,250</ChannelGroupsVal>
+  </Function>
+  <Function ID="33" Type="Scene" Name="New Chaser 10 - 16" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,30,2,130,9,250</ChannelGroupsVal>
+  </Function>
+  <Monitor DisplayMode="0" ShowLabels="0">
+   <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
+   <ChannelStyle>1</ChannelStyle>
+   <ValueStyle>1</ValueStyle>
+   <Grid Width="5" Height="3" Depth="5" Units="0"/>
+  </Monitor>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <Slider Caption="Fan" ID="1" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="1015" Y="220" Width="415" Height="655"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>4278190080</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Roboto Condensed,50,-1,5,75,0,0,0,0,0</Font>
+    </Appearance>
+    <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+    <Reset/>
+    <Level LowLimit="0" HighLimit="255" Value="255">
+     <Channel Fixture="5">1</Channel>
+    </Level>
+    <Playback>
+     <Function>4294967295</Function>
+    </Playback>
+   </Slider>
+   <Slider Caption="Pump" ID="0" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="1430" Y="220" Width="415" Height="655"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>4278190080</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Roboto Condensed,50,-1,5,75,0,0,0,0,0</Font>
+    </Appearance>
+    <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+    <Reset/>
+    <Level LowLimit="0" HighLimit="255" Value="255">
+     <Channel Fixture="5">0</Channel>
+    </Level>
+    <Playback>
+     <Function>4294967295</Function>
+    </Playback>
+   </Slider>
+   <Button Caption="Full Haze" ID="2" Icon="">
+    <WindowState Visible="True" X="500" Y="220" Width="470" Height="655"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>4289560488</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Roboto,50,-1,5,75,0,0,0,0,0</Font>
+    </Appearance>
+    <Function ID="4"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="Standby" ID="3" Icon="">
+    <WindowState Visible="True" X="30" Y="220" Width="470" Height="655"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>4287291956</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Roboto,50,-1,5,75,0,0,0,0,0</Font>
+    </Appearance>
+    <Function ID="5"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
